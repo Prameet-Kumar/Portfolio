@@ -677,8 +677,8 @@ background: var(--skin-color);
 .portfolio .portfolio-item-inner .portfolio-img img{
  width: 100%;
  display: block;
-   -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-                    filter: blur(1.5px);
+   /* -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+                    /* filter: blur(1.5px);  */
 
 }
 .contact-title{
@@ -787,6 +787,9 @@ background: var(--skin-color);
     display: block;
     margin-left: 0;
   }
+  .personal-info .row{
+    margin-left: 0;
+  }
 }
 @media(max-width:991px){
   
@@ -816,8 +819,8 @@ background: var(--skin-color);
     position: absolute;
     height: 80px;
     width: 80px;
-    left: 250px;
-    bottom: -25px;
+    left: 230px;
+    bottom: -4px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
   }
@@ -826,14 +829,15 @@ background: var(--skin-color);
     position: absolute;
     height: 80px;
     width: 80px;
-    left: -25px;
-    top: -25px;
+    left: -10px;
+    top: -10px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
   }
 
 }
 @media(max-width:767px){
+  
   .contact .contact-form .col-6,
   .contact .contact-info-item,
   .portfolio .portfolio-item,
@@ -849,6 +853,28 @@ background: var(--skin-color);
     
     
   }
+  .about .about-content .skills{
+    margin-top: 0;
+   max-width:100%;
+   
+   padding-right: 0;
+  }
+   .education .row,
+   .experience .row{
+    padding-right: 0;
+    padding-left:0;
+    margin-right: 0;
+    left: 0;
+    display: flex;
+    /* background-color: red; */
+    width:115%;
+    right: 0;
+  }
+  /* .timeline-shadow-dark{
+    display: flex;
+    background-color: red;
+    width:900px
+  } */
   .padd-15{
 padding-left: 0;
   }
